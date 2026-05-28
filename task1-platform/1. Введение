@@ -1,11 +1,5 @@
-git commit -m "
-> Заголовок коммита Google Workspace
-> Описание на второй строке "Google Workspace – это решение для повышения эффективности работы. Оно включает различные инструменты, такие как Gmail, Документы и Meet, которые позволяют безопасно общаться и работать вместе." 
-> Описание на третьей строке Выбран потому, что это лидер рынка корпоративной почты и документов с 3 млрд пользователей Gmail."
-> Описание на четвертой строке git commit -m "task1: добавлен анализ платформы [https://workspace.google.co.ug/intl/ru/resources/what-is-workspace/, https://ru.wikipedia.org/wiki/Google_Workspace, ]"
-> Третий абзац"
+git commit -m "Анализ Google Workspace" -m "Google Workspace – это решение для повышения эффективности работы. Оно включает в себя Gmail, Документы и Meet. Это лидер рынка с 3 млрд пользователей.
 
-git commit -m "
-> Заголовок коммита
-> Описание на второй строке
-> Третий абзац"
+Добавлен анализ платформы:
+https://workspace.google.co.ug/intl/ru/resources/what-is-workspace/
+https://ru.wikipedia.org/wiki/Google_Workspace"
