@@ -1,1 +1,4 @@
-
+git commit -m "Google Workspace"
+-m "Google Workspace – это решение для повышения эффективности работы. Оно включает различные инструменты, такие как Gmail, Документы и Meet, которые позволяют безопасно общаться и работать вместе." 
+-m "Выбран потому, что это лидер рынка корпоративной почты и документов с 3 млрд пользователей Gmail."
+git commit -m "task1: добавлен анализ платформы [https://workspace.google.co.ug/intl/ru/resources/what-is-workspace/, https://ru.wikipedia.org/wiki/Google_Workspace, ]"
