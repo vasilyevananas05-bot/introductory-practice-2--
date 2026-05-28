@@ -1,5 +1,5 @@
-git commit -m "Анализ Google Workspace" -m "Google Workspace – это решение для повышения эффективности работы. Оно включает в себя Gmail, Документы и Meet. Это лидер рынка с 3 млрд пользователей.
-
+git commit -m "Анализ Google Workspace" -m "Google Workspace – это решение для повышения эффективности работы. Оно включает в себя Gmail, Документы и Meet. Это лидер рынка с 3 млрд пользователей."
+-m "Служба поддерживает несколько веб-приложений с похожей функциональностью как у традиционных офисных пакетов, и включает: Gmail, Google Календарь, Google Диск, Google Docs Editors и Google Meet.
 Добавлен анализ платформы:
 https://workspace.google.co.ug/intl/ru/resources/what-is-workspace/
 https://ru.wikipedia.org/wiki/Google_Workspace"
