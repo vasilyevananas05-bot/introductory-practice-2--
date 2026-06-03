@@ -64,7 +64,47 @@ for price in prices:
     else:
         print(f"Цена {price} — Приемлемо")
 # код 6
+capital = float(input("Начальный капитал: "))
+rate = float(input("Процентная ставка (%): "))
+
+for year in range(1, 6):
+    capital = capital * (1 + rate / 100)
+    print(f"Год {year}: на счету {round(capital, 2)}")
 # код 7
+monthly_payment = float(input("Ежемесячный взнос: "))
+months = int(input("Количество месяцев: "))
+total = 0
+
+for m in range(1, months + 1):
+    total += monthly_payment
+    print(f"Месяц {m}: накоплено {total}")
 # код 8
+budget = float(input("Ваш бюджет: "))
+# Список из 5 товаров (название и цена)
+catalog = {"Товар А": 500, "Товар Б": 2000, "Товар В": 100, "Товар Г": 1500, "Товар Д": 300}
+
+for item, price in catalog.items():
+    if budget >= price:
+        print(f"{item} (цена {price}): доступен")
+    else:
+        diff = price - budget
+        print(f"{item} (цена {price}): не хватает {diff} руб.")
 # код 9
+revenues = []
+for i in range(1, 7):
+    rev = float(input(f"Введите выручку за месяц {i}: "))
+    revenues.append(rev)
+
+print(f"Максимум: {max(revenues)}")
+print(f"Минимум: {min(revenues)}")
+print(f"Среднее: {sum(revenues) / len(revenues)}")
 # код 10
+threshold = float(input("Введите пороговую рентабельность (%): "))
+count_above = 0
+
+for i in range(1, 7):
+    val = float(input(f"Рентабельность за месяц {i} (%): "))
+    if val > threshold:
+        count_above += 1
+
+print(f"Месяцев выше порога: {count_above}")
